@@ -235,6 +235,11 @@ a {
     border: 2px solid #217ad6;
   }
 
+  /*Input*/
+  input, textarea, select {
+    border: 1px solid #D4D4D4;
+  }
+
   /*Footer*/
 
   #footer {
