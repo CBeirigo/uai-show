@@ -1,6 +1,5 @@
 #Cadastro {
   margin-top: 2%;
-  margin-left: 139px;
 }
 
 #Cadastro h1 {
@@ -70,8 +69,6 @@
 @media (max-width: 600px) {
   #Cadastro {
     margin-top: 2%;
-    margin-left: 87px;
-    margin-right: 15%;
   }
 
   #cad_mobile {
@@ -86,7 +83,7 @@
     margin-bottom: 30px;
     outline: none;
   }
-  .input-group{
+  .input-group {
     gap: 0;
   }
 
@@ -94,11 +91,10 @@
     margin: 0;
   }
 
-  .input-box  #uf{
+  .input-box #uf {
     width: 300px;
     margin-bottom: 30px;
   }
- 
 
   .button {
     border: none;

@@ -1,7 +1,5 @@
 #Cadastro {
   margin-top: 2%;
-  margin-left: 139px;
-
 }
 
 #Cadastro h1 {
@@ -32,9 +30,6 @@
   margin-right: 25px;
   margin-top: 20px;
 }
-
-
-
 
 /*FORMULÁRIO*/
 
@@ -100,9 +95,8 @@
   outline: none;
 }
 
-
 .radio:before {
-  content: '';
+  content: "";
   width: 15px;
   height: 15px;
   background: #217ad6;
@@ -111,12 +105,12 @@
   transition: all 600ms ease-in-out;
   position: absolute;
 }
-  
+
 .radio:checked:before {
   opacity: 1;
 }
 
-.radio:focus{
+.radio:focus {
   box-shadow: 0 0 5px #217ad6;
 }
 
@@ -133,11 +127,10 @@
   align-items: center;
   justify-content: center;
   outline: none;
-
 }
 
 .checkbox:before {
-  content: '';
+  content: "";
   width: 15px;
   height: 15px;
   background: solid rgb(31, 103, 190);
@@ -164,11 +157,10 @@
 }
 
 .checkbox:focus {
-  box-shadow: 0 0 5px solid rgb(31, 103, );
+  box-shadow: 0 0 5px solid rgb(31, 103);
 }
 
 /*POSIÇÕES DA CHECKBOX*/
-
 
 .input-group1 {
   display: flex;
@@ -180,9 +172,7 @@
 
 .input-group3 {
   display: flex;
-  
 }
-
 
 /*BOTÃO CADASTRAR*/
 .button4 {
@@ -197,12 +187,9 @@
   color: white;
 }
 
-
 @media (max-width: 600px) {
   #Cadastro {
     margin-top: 2%;
-    margin-left: 87px;
-    margin-right: 15%;
   }
 
   .caixa {
@@ -220,7 +207,7 @@
     margin: 0;
   }
 
-  .input-box  #uf{
+  .input-box #uf {
     width: 300px;
     margin-bottom: 30px;
   }
@@ -251,7 +238,6 @@
     background-color: #217ad6;
     color: white;
     border: 2px solid #217ad6;
-
   }
 
   .btn_empresa {
@@ -264,7 +250,6 @@
     background-color: #217ad6;
     color: white;
     border: 2px solid #217ad6;
-
   }
 
   .btn_usuario {
@@ -278,8 +263,7 @@
     color: white;
   }
 
-  textarea{
+  textarea {
     max-width: 19rem;
   }
-
 }
