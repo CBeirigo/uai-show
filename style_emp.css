@@ -115,10 +115,16 @@
 }
 
 #Funcionamento {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  grid-template-areas: "";
+ display: flex;
+ flex-direction: column;
+ row-gap: 1rem;
+ 
+}
+
+#Funcionamento #time {
+  width: 5rem;
+  height: 2rem;
+  padding: 5px;
 }
 
 /*CAIXA DE DESCRIÇÃO*/
