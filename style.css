@@ -181,6 +181,23 @@ nav.show div.icon-close {
   font-weight: 700;
 }
 
+/*glide*/
+
+.glide {
+width: 100%
+}
+
+
+.glide__slide {
+  text-align: center;
+  font-size: 80px;
+}
+
+.glide__arrow {
+  color: black;
+}
+
+
 /*Section events*/
 
 #events-section {
